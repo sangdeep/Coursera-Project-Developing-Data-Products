@@ -1,0 +1,56 @@
+Coursera Shiny Project
+========================================================
+author: Deepak Kumar
+date: May 29, 2016
+
+Introduction
+========================================================
+
+Shiny App
+
+* Provide quick summary for choosen data set along with individual observation details.  
+
+* Quick Peep Into the data set
+
+* Later Can be extended to include more data sets
+
+
+Shiny App: Key Features
+========================================================
+
+* User Can Choose the data set from given list
+
+* User Can Also select number of observatio to be displayed
+
+* 3 datasets are given for Analysis 
+
+
+
+Shiny App: Output displayed 
+========================================================
+
+Example Summary displayed in App
+
+```{r pack,echo=FALSE}
+library(shiny)
+library(shiny)
+library(UsingR)
+library(datasets)
+```
+
+```{r summ,echo=FALSE}
+summary(pressure)
+head(pressure,10)
+```
+
+
+Shiny App: Publishing Location
+========================================================
+
+ShinyApp: https://deepakapps.shinyapps.io/CourseProject/
+
+Github: https://github.com/sangdeep/Coursera-Project-Developing-Data-Products
+
+Rpub presentation: http://rpubs.com/deepakkumar84/184714
+
+
